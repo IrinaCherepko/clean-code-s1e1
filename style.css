@@ -9,7 +9,7 @@ ul {
     padding: 0px;
   }
   li, .title {
-    list-style:none
+    list-style:none;
   }
   .input,.btn{
     outline:none;
@@ -38,8 +38,8 @@ ul {
 }
 .add__input {
   width: 56%;
-  display: inline-block
-  flex-grow: 1
+  display: inline-block;
+  flex-grow: 1;
 }
 .forms-wrapper {
   display: flex;
@@ -117,7 +117,7 @@ ul {
   width: 226px;
 }
 .li > .add__input {
-  width: 226px
+  width: 226px;
 }
 .delete-img {
   height: 2em;
