@@ -5,15 +5,17 @@ body {
   font-family: Lato, sans-serif;
 }
 ul {
-    margin: 0;
-    padding: 0px;
-  }
-  li, .title {
-    list-style: none;
-  }
-  .input,.btn{
-    outline: none;
-  }
+  margin: 0;
+  padding: 0px;
+}
+li,
+.title {
+  list-style: none;
+}
+.input,
+.btn{
+  outline: none;
+}
 .header {
   width: 500px;
   margin: 0 auto;
@@ -99,7 +101,6 @@ ul {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
