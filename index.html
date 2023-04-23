@@ -17,25 +17,25 @@
     <div id="addsection" class ="add">
       <label class ="label add__label" for="new-task">Add Item</label>
       <div class="forms-wrapper">
-        <input id="addinput" class="input add__input" type="text">
+        <input id="addinput" class="input common__task add__input todo__input-text" type="text">
         <button class = "btn">Add</button>
       </div>
     </div>
     <h3 class = "title">Todo</h3>
-    <ul id="todosection" class = "todo">
+    <ul id="todosection" class = "todo"> 
       <li class ="li">
-        <input class ="input todo__input-checkbox" type="checkbox">
-        <label class="label todo__label">Pay Bills</label>
-        <input type="text" class="input todo__input-text">
+        <input type="checkbox" class ="input todo__input-checkbox">
+        <label class="label common__task todo__label">Pay Bills</label>
+        <input type="text" class="input common__task todo__input-text">
         <button class="btn todo__button-edit">Edit</button>
         <button class="btn todo__button-delete">
           <img class = "delete-img" src="./remove.svg" alt="">
         </button>
       </li>
-      <li class="li li-go-shop">
-        <input class ="input todo__input-checkbox" type="checkbox">
-        <label class="label todo__label">Go Shopping</label>
-        <input type="text" value="go shopping" class="input todo__input-text">
+      <li class="li editMode"> 
+        <input type="checkbox" class ="input todo__input-checkbox">
+        <label class="label common__task todo__label">Go Shopping</label>
+        <input type="text" value="Go shopping" class="input common__task todo__input-text">
         <button class="btn todo__button-edit">Save</button>
         <button class="btn todo__button-delete">
           <img class = "delete-img" src="./remove.svg" alt="">
@@ -43,11 +43,11 @@
       </li>
     </ul>
     <h3 class = "title">Completed</h3>
-    <ul id="completedsection" class ="completed">
+    <ul id="completedsection" class ="completed"> 
       <li class ="li">
-        <input class="input todo__input-checkbox" type="checkbox" checked>
-        <label class="label todo__label">See the Doctor</label>
-        <input type="text" class="input todo__input-text">
+        <input type="checkbox" checked class="input todo__input-checkbox">
+        <label class="label common__task todo__label">See the Doctor</label>
+        <input type="text" class="input common__task todo__input-text">
         <button class="btn todo__button-edit">Edit</button>
         <button class="btn todo__button-delete">
           <img class = "delete-img" src="./remove.svg" alt="">
