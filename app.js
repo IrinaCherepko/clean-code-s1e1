@@ -87,10 +87,10 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('input[type=text]');
-    var label=listItem.querySelector("label");
-    var editBtn=listItem.querySelector(".todo__button-edit");
-    var containsClass=listItem.classList.contains("editMode");
+    var editInput=listItem.querySelector('.todo__input-text');
+    var label=listItem.querySelector(".todo__label");
+    var editBtn=listItem.querySelector(".todo__button-edit"); 
+    var containsClass=listItem.classList.contains("editmode");
     //If class of the parent is .editmode
     if(containsClass){ 
 
@@ -104,7 +104,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("editMode");
+    listItem.classList.toggle("editmode");
 };
 
 
@@ -160,7 +160,7 @@ addButton.addEventListener("click",ajaxRequest);
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events"); 
 //select ListItems children
-    var checkBox=taskListItem.querySelector("input[type=checkbox]");
+    var checkBox=taskListItem.querySelector(".todo__input-checkbox");
     var editButton=taskListItem.querySelector("button.todo__button-edit");
     var deleteButton=taskListItem.querySelector("button.todo__button-delete");
 
